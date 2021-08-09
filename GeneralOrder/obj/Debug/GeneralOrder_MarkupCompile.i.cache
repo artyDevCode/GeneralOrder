@@ -1,0 +1,20 @@
+﻿GeneralOrder
+
+
+winexe
+C#
+.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\
+GeneralOrder
+none
+false
+DEBUG;TRACE
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\App.xaml
+13-1374900915
+
+371279389541
+231474119298
+Controls\Logger.xaml;Controls\Wiki.xaml;Styles\Window.xaml;Styles\Buttons.xaml;Styles\Colours.xaml;Styles\ComboBox.xaml;Styles\Fonts.xaml;Styles\Text.xaml;Views\GODepartmentForAct.xaml;Views\GOFileDetailsUpload.xaml;Views\GOImportFile.xaml;MainWindow.xaml;Views\GOImportFileSelectAct.xaml;
+
+True
+

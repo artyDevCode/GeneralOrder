@@ -1,0 +1,11 @@
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Release\GeneralOrderCore.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Release\GeneralOrderCore.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Release\ApplicationLogger.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Release\ApplicationLogger.dll.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\obj\Release\GeneralOrderCore.csproj.CoreCompileInputs.cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\obj\Release\GeneralOrderCore.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\obj\Release\GeneralOrderCore.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Release\GeneralOrderCore.dll.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Release\log4net.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Release\log4net.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\obj\Release\GeneralOrderCore.csproj.CopyComplete

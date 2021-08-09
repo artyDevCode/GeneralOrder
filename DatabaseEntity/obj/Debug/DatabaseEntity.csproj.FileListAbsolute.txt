@@ -1,0 +1,44 @@
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\DatabaseEntity\bin\Debug\DatabaseEntity.dll.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\DatabaseEntity\bin\Debug\DatabaseEntity.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\DatabaseEntity\bin\Debug\DatabaseEntity.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\DatabaseEntity\bin\Debug\EntityFramework.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\DatabaseEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\DatabaseEntity\bin\Debug\Newtonsoft.Json.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\DatabaseEntity\bin\Debug\EntityFramework.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\DatabaseEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\DatabaseEntity\bin\Debug\Newtonsoft.Json.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\DatabaseEntity\obj\Debug\DatabaseEntity.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\DatabaseEntity\obj\Debug\DatabaseEntity.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\DatabaseEntity\bin\Debug\DatabaseEntity.dll.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\DatabaseEntity\bin\Debug\DatabaseEntity.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\DatabaseEntity\bin\Debug\DatabaseEntity.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\DatabaseEntity\bin\Debug\EntityFramework.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\DatabaseEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\DatabaseEntity\bin\Debug\Newtonsoft.Json.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\DatabaseEntity\bin\Debug\EntityFramework.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\DatabaseEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\DatabaseEntity\bin\Debug\Newtonsoft.Json.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\DatabaseEntity\obj\Debug\DatabaseEntity.csproj.CoreCompileInputs.cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\DatabaseEntity\obj\Debug\DatabaseEntity.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\DatabaseEntity\obj\Debug\DatabaseEntity.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\DatabaseEntity.dll.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\DatabaseEntity.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\DatabaseEntity.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\ApplicationLogger.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\EntityFramework.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\GeneralOrderCore.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\log4net.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\Newtonsoft.Json.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\GeneralOrderCore.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\GeneralOrderCore.dll.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\ApplicationLogger.dll.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\EntityFramework.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\log4net.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\bin\Debug\Newtonsoft.Json.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\obj\Debug\DatabaseEntity.csprojAssemblyReference.cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\obj\Debug\DatabaseEntity.csproj.CoreCompileInputs.cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\obj\Debug\DatabaseEntity.csproj.CopyComplete
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\obj\Debug\DatabaseEntity.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\DatabaseEntity\obj\Debug\DatabaseEntity.pdb

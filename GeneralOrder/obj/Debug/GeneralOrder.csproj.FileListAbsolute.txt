@@ -1,0 +1,156 @@
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\bin\Debug\GeneralOrder.exe.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\bin\Debug\GeneralOrder.exe
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\bin\Debug\GeneralOrder.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\bin\Debug\DatabaseEntity.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\bin\Debug\Newtonsoft.Json.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\bin\Debug\EntityFramework.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\bin\Debug\DatabaseEntity.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\bin\Debug\DatabaseEntity.dll.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\bin\Debug\Newtonsoft.Json.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\bin\Debug\EntityFramework.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.csprojResolveAssemblyReference.cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\Pages\GOImportFile.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\MainWindow.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\App.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder_MarkupCompile.cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder_MarkupCompile.lref
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\Pages\GOImportFile.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\MainWindow.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.g.resources
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.Properties.Resources.resources
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.csproj.GenerateResource.Cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.exe
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\obj\Debug\GeneralOrder.csprojResolveAssemblyReference.cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\obj\Debug\Pages\GOImportFile.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\obj\Debug\MainWindow.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\obj\Debug\App.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\obj\Debug\GeneralOrder_MarkupCompile.cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\obj\Debug\GeneralOrder_MarkupCompile.lref
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\obj\Debug\GeneralOrder.exe
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\obj\Debug\GeneralOrder.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\obj\Debug\Styles\Fonts.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\obj\Debug\Pages\GOImportFile.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\General Order\GeneralOrder\obj\Debug\MainWindow.baml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\GeneralOrder.exe.config
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\GeneralOrder.exe
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\GeneralOrder.pdb
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\DatabaseEntity.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\GeneralOrderCore.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\Newtonsoft.Json.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\System.Windows.Interactivity.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\EntityFramework.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\EntityFramework.SqlServer.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\DatabaseEntity.pdb
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\DatabaseEntity.dll.config
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\GeneralOrderCore.pdb
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\Newtonsoft.Json.xml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\EntityFramework.xml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\EntityFramework.SqlServer.xml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\de\System.Windows.Interactivity.resources.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\en\System.Windows.Interactivity.resources.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\es\System.Windows.Interactivity.resources.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\it\System.Windows.Interactivity.resources.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.csprojResolveAssemblyReference.cache
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Controls\Logger.g.cs
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Controls\Wiki.g.cs
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Views\GOFileDetailsUpload.g.cs
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Views\GOImportFile.g.cs
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\MainWindow.g.cs
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\App.g.cs
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder_MarkupCompile.cache
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder_MarkupCompile.lref
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\App.baml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Controls\Logger.baml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Controls\Wiki.baml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Styles\Buttons.baml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Styles\Colours.baml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Styles\ComboBox.baml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Styles\Fonts.baml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Styles\Text.baml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Views\GOFileDetailsUpload.baml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Views\GOImportFile.baml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\MainWindow.baml
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.g.resources
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.Properties.Resources.resources
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.csproj.GenerateResource.Cache
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.csproj.CoreCompileInputs.cache
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.exe
+Y:\VM folders\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\GeneralOrder.exe
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\GeneralOrder.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\ApplicationLogger.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\DatabaseEntity.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\FontAwesome.WPF.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\GeneralOrderCore.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\log4net.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\Newtonsoft.Json.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\Reporting.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\EntityFramework.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\DatabaseEntity.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\DatabaseEntity.dll.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\GeneralOrderCore.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\GeneralOrderCore.dll.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\Reporting.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\ApplicationLogger.dll.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\FontAwesome.WPF.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\log4net.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\Newtonsoft.Json.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\EntityFramework.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.csprojAssemblyReference.cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Controls\Logger.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Controls\Wiki.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Views\GODepartmentForAct.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Views\GOFileDetailsUpload.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Views\GOImportFile.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\MainWindow.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Views\GOImportFileSelectAct.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\App.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder_MarkupCompile.cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder_MarkupCompile.lref
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\App.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Controls\Logger.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Controls\Wiki.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Styles\Window.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Styles\Buttons.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Styles\Colours.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Styles\ComboBox.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Styles\Fonts.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Styles\Text.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Views\GODepartmentForAct.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Views\GOFileDetailsUpload.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Views\GOImportFile.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\MainWindow.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\Views\GOImportFileSelectAct.baml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.g.resources
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.Properties.Resources.resources
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.csproj.GenerateResource.cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.csproj.CoreCompileInputs.cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.csproj.CopyComplete
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.exe
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrder\obj\Debug\GeneralOrder.pdb

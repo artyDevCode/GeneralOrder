@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="GeneralOrder.Logger"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GeneralOrder"
+             xmlns:core="clr-namespace:GeneralOrderCore;assembly=GeneralOrderCore"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             mc:Ignorable="d"
+             FontSize="{Binding UIFontSize}" 
+             Width="{Binding UILoggerWidth}"
+             Height="{Binding UILoggerHeight}"
+             d:DesignHeight="100">
+    <!--MaxHeight="500">-->
+    <!--Height="100"-->
+
+    <StackPanel  Background="White" >
+        <TextBlock IsEnabled="False" TextWrapping="Wrap" Height="25" Padding="0 5 0 0"  TextAlignment="Center" Background="{StaticResource WordBlueBrush}"
+                   Text="System Log / Message"  FontFamily="{StaticResource CourBold}" />
+        <core:BindableRichTextBox  x:Name="wikiDetailsUploadRichTextBox" Height="{Binding UILoggerRTBHeight}" Document="{Binding loggerFlowDoc, Mode=TwoWay}" 
+                                       BorderThickness="0" VerticalScrollBarVisibility="Visible" 
+                                  Padding="5"  Foreground="{StaticResource ForegroundMainBrush}">
+        </core:BindableRichTextBox>
+    </StackPanel>
+</UserControl>

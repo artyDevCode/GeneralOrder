@@ -1,0 +1,22 @@
+﻿<Application x:Class="GeneralOrderUpdateDetails.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:local="clr-namespace:GeneralOrderUpdateDetails"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             StartupUri="MainWindow.xaml">
+
+    <Application.Resources>
+        <!--added this resource for design time rendering-->
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/GeneralOrderUpdateDetails;component/Styles/UIStyle.xaml" />
+                <!--<ResourceDictionary Source="/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="/Styles/Colours.xaml" />
+                <ResourceDictionary Source="/Styles/Buttons.xaml" />
+                <ResourceDictionary Source="/Styles/Text.xaml" />
+                <ResourceDictionary Source="/Styles/ComboBox.xaml" />-->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

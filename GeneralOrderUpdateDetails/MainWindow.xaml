@@ -1,0 +1,26 @@
+﻿<Window x:Class="GeneralOrderUpdateDetails.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GeneralOrderUpdateDetails"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        MinWidth="{Binding WindowMinimumWidth}"
+        MinHeight="{Binding WindowMinimumHeight}"
+        FontSize="{Binding UIFontSize}" 
+        Icon="ocpc-245x304.png"
+        ResizeMode="NoResize"
+        WindowStyle="SingleBorderWindow"
+        SizeToContent="WidthAndHeight"
+        Title="General Order Update Details">
+
+    <StackPanel>
+      
+        <ContentControl  VerticalAlignment="Top" x:Name="MainFrame"
+               Content="{Binding CurrentPage,
+                    Converter={local:ApplicationPageValueConverter}}" />
+
+        <local:Logger   Margin="0"  VerticalAlignment="Bottom"  />
+    </StackPanel>
+</Window>

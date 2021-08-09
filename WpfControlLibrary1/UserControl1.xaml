@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="WpfControlLibrary1.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfControlLibrary1"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="400">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/WpfControlLibrary1;component/Styles/Dictionary1.xaml" />
+                <!--<ResourceDictionary Source="pack://application:,,,/WpfControlLibrary1;component/Styles/Colours.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/WpfControlLibrary1;component/Styles/Text.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/WpfControlLibrary1;component/Styles/Buttons.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/WpfControlLibrary1;component/Styles/ComboBox.xaml" />-->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+   
+    <StackPanel Background="White">
+        <Border Margin="2" BorderThickness="2" Grid.Column="0" Height="55" Padding="1"  BorderBrush="{StaticResource WordBlueBrush}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button  Height="25" FontSize="{StaticResource FontSize10}" Command="{Binding btnBack}" x:Name="PrintActAdminReport" Content="Print Act Admin Report"  Padding="0" Margin="1" />
+                    <TextBlock HorizontalAlignment="Center" FontSize="{StaticResource FontSize12}" Style="{StaticResource RegularText}" Text="Including On Hold" Grid.Column="0" Margin="2"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <RadioButton Grid.Column="0" FontSize="{StaticResource FontSize12}"  Style="{StaticResource RadioButton}" VerticalAlignment="Center" Content="Current" Margin="5,2,0,0"/>
+                        <RadioButton Grid.Column="1" FontSize="{StaticResource FontSize12}"  Style="{StaticResource RadioButton}" VerticalAlignment="Center" Content="New" Margin="15,0,0,0"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <RadioButton Grid.Column="0" FontSize="{StaticResource FontSize12}"  Style="{StaticResource RadioButton}" VerticalAlignment="Center" Content="This Act" Margin="5,0,0,0"/>
+                        <RadioButton Grid.Column="1" FontSize="{StaticResource FontSize12}"  Style="{StaticResource RadioButton}" VerticalAlignment="Center" Content="All" Margin="15,0,0,0"/>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <RadioButton Grid.Column="0" FontSize="{StaticResource FontSize12}"  Style="{StaticResource RadioButton}" VerticalAlignment="Center" Content="Yes" Margin="5,0,0,0"/>
+                        <RadioButton Grid.Column="1" FontSize="{StaticResource FontSize12}"  Style="{StaticResource RadioButton}" VerticalAlignment="Center" Content="No" Margin="15,0,0,0"/>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </StackPanel>
+</UserControl>

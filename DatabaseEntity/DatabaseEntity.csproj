@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CBD10045-C793-47B8-A779-FFA4DA05DFCA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DatabaseEntity</RootNamespace>
+    <AssemblyName>DatabaseEntity</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ApplicationLogger">
+      <HintPath>..\packages\ApplicationLogger\ApplicationLogger.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\ApplicationLogger\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfig.cs" />
+    <Compile Include="DataController\GeneralOrderLibrary\ActAdministrationDC.cs" />
+    <Compile Include="DataController\GOActCommentModelDC.cs" />
+    <Compile Include="DataController\GeneralOrderActTitleModelDC.cs" />
+    <Compile Include="DataController\GeneralOrderLibrary\GOImportFiles.cs" />
+    <Compile Include="DataController\GeneralOrderPortfolioModelDC.cs" />
+    <Compile Include="DataController\GetDepartments.cs" />
+    <Compile Include="DataController\GetHelpInformation.cs" />
+    <Compile Include="DataController\GetGeneralOrder.cs" />
+    <Compile Include="DataController\GeneralOrderUpdateDetails\GOUpdateDetailsImportedFiles.cs" />
+    <Compile Include="DataController\ParagraphModelDC.cs" />
+    <Compile Include="DataController\GeneralOrderImportHeaderDC.cs" />
+    <Compile Include="DBModelConfig.cs" />
+    <Compile Include="DataController\GetPortfolios.cs" />
+    <Compile Include="DataController\GetActTitles.cs" />
+    <Compile Include="Model\ActAdminComment.cs" />
+    <Compile Include="Model\ActAdministration.cs" />
+    <Compile Include="Model\ControlHelp.cs" />
+    <Compile Include="Model\Department.cs" />
+    <Compile Include="Model\DepartmentPortfolio.cs" />
+    <Compile Include="Model\EntityDBM.cs" />
+    <Compile Include="Model\GeneralOrderActCommentModel.cs" />
+    <Compile Include="Model\GeneralOrderActModel.cs" />
+    <Compile Include="Model\GeneralOrderGroupAct.cs" />
+    <Compile Include="Model\GeneralOrderGroupActList.cs" />
+    <Compile Include="Model\GeneralOrderImporFileAttrib.cs" />
+    <Compile Include="Model\GeneralOrderImportHeader.cs" />
+    <Compile Include="Model\GeneralOrderPortfolioModel.cs" />
+    <Compile Include="Model\House.cs" />
+    <Compile Include="Model\ILD_CurrentDocuments.cs" />
+    <Compile Include="Model\Minister.cs" />
+    <Compile Include="Model\MinisterPortfolio.cs" />
+    <Compile Include="Model\ParagraphModel.cs" />
+    <Compile Include="Model\ParagraphModelType.cs" />
+    <Compile Include="Model\Parliament.cs" />
+    <Compile Include="Model\ParliamentMember.cs" />
+    <Compile Include="Model\ParliamentMemberPartyHouse.cs" />
+    <Compile Include="Model\Party.cs" />
+    <Compile Include="Model\Portfolio.cs" />
+    <Compile Include="Model\ScreenHelp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\ActAdministration\ActAdministrationMetaData.cs" />
+    <Compile Include="ViewModel\DepartmentViewModel.cs" />
+    <Compile Include="ViewModel\DocViewModel.cs" />
+    <Compile Include="ViewModel\GeneralOrder\GeneralOrderMetaData.cs" />
+    <Compile Include="ViewModel\GeneralOrderViewModel.cs" />
+    <Compile Include="ViewModel\HelperViewModel.cs" />
+    <Compile Include="ViewModel\PortfolioViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeneralOrderCore\GeneralOrderCore.csproj">
+      <Project>{7CEFE10B-62DC-42A6-9DA1-9BE3CDAF2B34}</Project>
+      <Name>GeneralOrderCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

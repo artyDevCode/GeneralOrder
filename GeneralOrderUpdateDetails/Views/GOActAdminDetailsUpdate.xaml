@@ -1,0 +1,317 @@
+﻿<UserControl x:Class="GeneralOrderUpdateDetails.GOActAdminDetailsUpdate"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GeneralOrderUpdateDetails"
+      xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+      mc:Ignorable="d" 
+      xmlns:fa="http://schemas.fontawesome.io/icons/"  
+      Height="{Binding UIHeight}" 
+      Width="{Binding UIWidth}"
+      d:DataContext="{x:Static local:GOActAdminDetailsUpdateDM.Instance}">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/GeneralOrderUpdateDetails;component/Styles/UIStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <StackPanel VerticalAlignment="Top">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="200" />
+            </Grid.ColumnDefinitions>
+
+            <Border Padding="1"  Background="{StaticResource WordBlueBrush}">
+                <Grid Background="White" IsEnabled="{Binding Path=spinnerBool, Converter={local:ChangeBooleanConverter}, ConverterParameter=false,  Mode=TwoWay}">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Grid  Margin="0 0 0 0" Grid.Row="0">
+                        <TextBlock  Style="{StaticResource HeaderText}" FontSize="{Binding UIFontSize}" FontFamily="{StaticResource CourRegular}" Text="Act Administration - Details Update"  HorizontalAlignment="Center" Margin="0 10 0 5" >
+                        <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="MouseEnter">
+                                    <i:InvokeCommandAction Command="{Binding getApplicationWikiInformation}"/>
+                                </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                        </TextBlock>
+                    </Grid>
+                    <Grid  Margin="0 0 0 0" Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="15*"/>
+                            <ColumnDefinition Width="4*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Style="{StaticResource RegularText}" FontSize="{Binding UIFontSize}" VerticalAlignment="Bottom" Text="Act" Grid.Column="0" Margin="5 2 2 5"/>
+                        <TextBox x:Name="txtgeneralOrderILD" FontSize="{Binding UIFontSize}" Text="{Binding generalOrderILD}"  Grid.Column="1" Padding="0" Margin="2 2 2 5"/>
+
+                        <ComboBox  ItemsSource="{Binding actList}"
+                                   DisplayMemberPath="ActTitle" FontSize="{Binding UIFontSize}"
+                                   SelectedIndex="{Binding actSelectedIndex, Mode=TwoWay}"
+                                   SelectedValuePath="ActTitleILDNumber" Grid.Column="2" Padding="0" Margin="2"
+                                   SelectedItem="{Binding cBSelectedActValue, Mode=TwoWay}"  >
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="SelectionChanged">
+                                    <i:InvokeCommandAction Command="{Binding selectActCB}"/>
+                                </i:EventTrigger>
+                                <i:EventTrigger EventName="MouseEnter">
+                                    <i:InvokeCommandAction Command="{Binding getActWikiInformation}"/>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </ComboBox>
+                        <TextBox x:Name="generalOrderActNumber" FontSize="{Binding UIFontSize}" Text="{Binding generalOrderActNumber}"   Grid.Column="3" Padding="0" Margin="2 2 2 5"/>
+                    </Grid>
+
+                    <local:GOListBox  Margin="0 0 0 2" Grid.Row="2"/>
+                    <Grid  Margin="0 0 0 0" Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="5*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Border Margin="2" BorderThickness="2" Grid.Column="0"  Padding="0" BorderBrush="{StaticResource WordBlueBrush}">
+                            <Grid >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="3*"/>
+                                    <ColumnDefinition Width="7*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="1*"/>
+                                        <RowDefinition Height="4*"/>
+                                        <RowDefinition Height="4*"/>
+                                    </Grid.RowDefinitions>
+                                    <Button Grid.Row="1" FontSize="{Binding UIFontSize}" Command="{Binding btnGenerateActReport}"  x:Name="generateActReport" Content="Act Report"  
+                                                 Padding="{Binding generalOrderPadding}" Margin="{Binding generalOrderPadding}">
+                                        <i:Interaction.Triggers>
+                                            <i:EventTrigger EventName="MouseEnter">
+                                                <i:InvokeCommandAction Command="{Binding getPrintBtnWikiInformation}"/>
+                                            </i:EventTrigger>
+                                        </i:Interaction.Triggers>
+                                    </Button>
+                                    <Button Grid.Row="2" Command="{Binding btnGenerateActAdminReport}" FontSize="{Binding UIFontSize}"  x:Name="generateActAdminReport" Content="Admin Report"  
+                                                Padding="{Binding generalOrderPadding}" Margin="{Binding generalOrderPadding}" >
+                                        <i:Interaction.Triggers>
+                                            <i:EventTrigger EventName="MouseEnter">
+                                                <i:InvokeCommandAction Command="{Binding getPrintBtnWikiInformation}"/>
+                                            </i:EventTrigger>
+                                        </i:Interaction.Triggers>
+                                    </Button>
+                                </Grid>
+
+                                <Grid Grid.Column="1">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="1*"/>
+                                        <RowDefinition Height="1*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid Grid.Column="1" >
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="1*"/>
+                                            <RowDefinition Height="1*"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="5*"/>
+                                            <ColumnDefinition Width="3*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <RadioButton Grid.Column="1" Grid.Row="0" FontSize="{Binding UIFontSize}" GroupName="GroupRadioActReport"  IsChecked="{Binding RadioActReport,                               
+                                                     Converter={local:RadioButtonCheckedConverter},  ConverterParameter=2,  Mode=TwoWay}"  Margin="0 0 2 0"
+                                                 Background="{StaticResource WordOrangeBrush}" VerticalAlignment="Center" HorizontalAlignment="Center"
+                                                 Foreground="{StaticResource ForegroundVeryDarkBrush}" Padding="0">
+                                            <RadioButton.Content>
+                                                <TextBlock Text="This Act" Padding="2 0 0 0"  TextWrapping="Wrap"/>
+                                            </RadioButton.Content>
+                                            <i:Interaction.Triggers>
+                                                <i:EventTrigger EventName="MouseEnter">
+                                                    <i:InvokeCommandAction Command="{Binding getPrintThisActRBWikiInformation}"/>
+                                                </i:EventTrigger>
+                                            </i:Interaction.Triggers>
+                                        </RadioButton>
+
+                                        <RadioButton  Grid.Column="0" Grid.Row="0" FontSize="{Binding UIFontSize}" GroupName="GroupRadioActCommentsReport"  IsChecked="{Binding RadioCommentsReport,                               
+                                                     Converter={local:RadioButtonCheckedConverter},  ConverterParameter=2,  Mode=TwoWay}" 
+                                                 Background="{StaticResource WordOrangeBrush}" Margin="0" Padding="0"
+                                                 Foreground="{StaticResource ForegroundVeryDarkBrush}"   VerticalAlignment="Center" HorizontalAlignment="Left">
+                                            <RadioButton.Content>
+                                                <TextBlock Text="Current comments only" Padding="2 0 0 0"  TextWrapping="Wrap"/>
+                                            </RadioButton.Content>
+                                            <i:Interaction.Triggers>
+                                                <i:EventTrigger EventName="MouseEnter">
+                                                    <i:InvokeCommandAction Command="{Binding getPrintCurrentRBWikiInformation}"/>
+                                                </i:EventTrigger>
+                                            </i:Interaction.Triggers>
+                                        </RadioButton>
+
+                                        <RadioButton  Grid.Column="1" Grid.Row="1" FontSize="{Binding UIFontSize}" GroupName="GroupRadioActReport" IsChecked="{Binding RadioActReport,                               
+                                                     Converter={local:RadioButtonCheckedConverter},  ConverterParameter=1,  Mode=TwoWay}" 
+                                                 Background="{StaticResource WordOrangeBrush}" Margin="0 0 2 0" Padding="0"
+                                                 Foreground="{StaticResource ForegroundVeryDarkBrush}" VerticalAlignment="Center" HorizontalAlignment="Center" >
+                                            <RadioButton.Content>
+                                                <TextBlock Text="All Acts " Padding="2 0 0 0"  TextWrapping="Wrap"/>
+                                            </RadioButton.Content>
+                                            <i:Interaction.Triggers>
+                                                <i:EventTrigger EventName="MouseEnter">
+                                                    <i:InvokeCommandAction Command="{Binding getPrintAllRBWikiInformation}"/>
+                                                </i:EventTrigger>
+                                            </i:Interaction.Triggers>
+                                        </RadioButton>
+
+                                        <RadioButton  Grid.Column="0" Grid.Row="1" FontSize="{Binding UIFontSize}" GroupName="GroupRadioActCommentsReport"  IsChecked="{Binding RadioCommentsReport,                               
+                                                     Converter={local:RadioButtonCheckedConverter},  ConverterParameter=1,  Mode=TwoWay}" 
+                                                 Background="{StaticResource WordOrangeBrush}" Margin="0" Padding="0"
+                                                 Foreground="{StaticResource ForegroundVeryDarkBrush}"  VerticalAlignment="Center" HorizontalAlignment="Left">
+                                            <RadioButton.Content>
+                                                <TextBlock Text="With new comments" Padding="2 0 0 0"  TextWrapping="Wrap"/>
+                                            </RadioButton.Content>
+                                            <i:Interaction.Triggers>
+                                                <i:EventTrigger EventName="MouseEnter">
+                                                    <i:InvokeCommandAction Command="{Binding getPrintNewRBWikiInformation}"/>
+                                                </i:EventTrigger>
+                                            </i:Interaction.Triggers>
+                                        </RadioButton>
+                                    </Grid>
+
+
+                                    <Grid Grid.Row="1">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*"/>
+                                            <ColumnDefinition Width="1*"/>
+                                        </Grid.ColumnDefinitions>
+                                   
+                                    <RadioButton Grid.Column="0" FontSize="{Binding UIFontSize}" GroupName="GroupRadioAdminReport" Grid.Row="1" IsChecked="{Binding RadioActAdminReport,                               
+                                                     Converter={local:RadioButtonCheckedConverter},  ConverterParameter=1,  Mode=TwoWay}" 
+                                                 Background="{StaticResource WordOrangeBrush}" Margin="0" Padding="0"
+                                                 Foreground="{StaticResource ForegroundVeryDarkBrush}"   VerticalAlignment="Center" HorizontalAlignment="Left" >
+                                        <RadioButton.Content>
+                                                <TextBlock Text="Act Administrators" VerticalAlignment="Top"  Padding="2 0 0 0" TextWrapping="Wrap"/>
+                                        </RadioButton.Content>
+                                        <i:Interaction.Triggers>
+                                            <i:EventTrigger EventName="MouseEnter">
+                                                <i:InvokeCommandAction Command="{Binding getPrintActAdminWikiInformation}"/>
+                                            </i:EventTrigger>
+                                        </i:Interaction.Triggers>
+                                    </RadioButton>
+
+
+                                    <RadioButton Grid.Column="1" FontSize="{Binding UIFontSize}" Grid.Row="1" GroupName="GroupRadioAdminReport" IsChecked="{Binding RadioActAdminReport,                               
+                                                     Converter={local:RadioButtonCheckedConverter},  ConverterParameter=2,  Mode=TwoWay}" 
+                                                 Background="{StaticResource WordOrangeBrush}"  Margin="0" Padding="0"
+                                                 Foreground="{StaticResource ForegroundVeryDarkBrush}"  VerticalAlignment="Center" HorizontalAlignment="left">
+                                        <RadioButton.Content>
+                                                <TextBlock Text="Administered Acts" VerticalAlignment="Center" Padding="2 0 0 0" TextWrapping="NoWrap"/>
+                                        </RadioButton.Content>
+                                        <i:Interaction.Triggers>
+                                            <i:EventTrigger EventName="MouseEnter">
+                                                <i:InvokeCommandAction Command="{Binding getPrintAdministeredActsWikiInformation}"/>
+                                            </i:EventTrigger>
+                                        </i:Interaction.Triggers>
+                                    </RadioButton>
+                                </Grid>
+                                </Grid>
+                            </Grid>
+                        </Border>
+
+                        <Border Grid.Column="1"  VerticalAlignment="Top" BorderThickness="2" Margin="2" BorderBrush="{StaticResource WordBlueBrush}">
+                            <Grid  >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Button Grid.Column="0" FontSize="{Binding UIFontSize}" Command="{Binding btnUploadDetails}" x:Name="UploadDetails" Content="Upload"  
+                                        Padding="{Binding generalOrderPadding}"  >
+                                    <i:Interaction.Triggers>
+                                        <i:EventTrigger EventName="MouseEnter">
+                                            <i:InvokeCommandAction Command="{Binding getUploadBtnWikiInformation}"/>
+                                        </i:EventTrigger>
+                                    </i:Interaction.Triggers>
+                                </Button>
+                                <Grid Grid.Column="1">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="1*"/>
+                                        <RowDefinition Height="1*"/>
+                                    </Grid.RowDefinitions>
+                                    <RadioButton Grid.Row="0" FontSize="{Binding UIFontSize}" GroupName="BooleanGroupRadioUploadAct"  IsChecked="{Binding RadioUploadAct,                               
+                                                     Converter={local:RadioButtonCheckedConverter},  ConverterParameter=2,  Mode=TwoWay}" 
+                                                 Background="{StaticResource WordOrangeBrush}" VerticalAlignment="Center" HorizontalAlignment="left"
+                                                 Foreground="{StaticResource ForegroundVeryDarkBrush}"  Padding="0" Margin="0"  >
+                                        <RadioButton.Content>
+                                            <TextBlock Text="This Act"  Padding="2 0 0 0"  TextWrapping="Wrap"/>
+                                        </RadioButton.Content>
+                                        <i:Interaction.Triggers>
+                                            <i:EventTrigger EventName="MouseEnter">
+                                                <i:InvokeCommandAction Command="{Binding getThisActWikiInformation}"/>
+                                            </i:EventTrigger>
+                                        </i:Interaction.Triggers>
+                                    </RadioButton>
+
+                                    <RadioButton Grid.Row="1" FontSize="{Binding UIFontSize}" GroupName="BooleanGroupRadioUploadAct"  IsChecked="{Binding RadioUploadAct,                               
+                                                     Converter={local:RadioButtonCheckedConverter},  ConverterParameter=1,  Mode=TwoWay}" 
+                                                 Background="{StaticResource WordOrangeBrush}" VerticalAlignment="Center" HorizontalAlignment="left"
+                                                 Foreground="{StaticResource ForegroundVeryDarkBrush}"  Padding="0" Margin="0">
+                                        <RadioButton.Content>
+                                            <TextBlock Text="All Acts"  Padding="2 0 0 0"  TextWrapping="Wrap"/>
+                                        </RadioButton.Content>
+                                        <i:Interaction.Triggers>
+                                            <i:EventTrigger EventName="MouseEnter">
+                                                <i:InvokeCommandAction Command="{Binding getAllActsWikiInformation}"/>
+                                            </i:EventTrigger>
+                                        </i:Interaction.Triggers>
+                                    </RadioButton>
+                                </Grid>
+                            </Grid>
+                        </Border>
+
+                        <StackPanel Grid.Column="2" >
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Button FontSize="{Binding UIFontSize}" Grid.Row="0" Command="{Binding btnDiscardPending}" x:Name="btnDiscardPending" Content="Discard Pending"  Padding="{Binding generalOrderPadding}" Margin="{Binding generalOrderPadding}" >
+                                    <i:Interaction.Triggers>
+                                        <i:EventTrigger EventName="MouseEnter">
+                                            <i:InvokeCommandAction Command="{Binding getBackBtnWikiInformation}"/>
+                                        </i:EventTrigger>
+                                    </i:Interaction.Triggers>
+                                </Button>
+                                <Button FontSize="{Binding UIFontSize}" Grid.Row="1" Command="{Binding btnCancel}" x:Name="btnCancel" Content="Close" Padding="{Binding generalOrderPadding}" Margin="{Binding generalOrderPadding}" >
+                                    <i:Interaction.Triggers>
+                                        <i:EventTrigger EventName="MouseEnter">
+                                            <i:InvokeCommandAction Command="{Binding getCancelBtnWikiInformation}"/>
+                                        </i:EventTrigger>
+                                    </i:Interaction.Triggers>
+                                </Button>
+                            </Grid>
+                        </StackPanel>
+
+                    </Grid>
+
+
+                </Grid>
+
+            </Border>
+            <fa:ImageAwesome Grid.Column="0"  Icon="Refresh" Foreground="{StaticResource ForegroundDarkBrush}"
+                                                 Visibility="{Binding Path=spinnerBool, Converter={local:ImageSourceConverter}, ConverterParameter=false,  Mode=TwoWay}" 
+                                                 Spin="{Binding Path=spinnerBool}"
+                                                 SpinDuration="2" Width="40" Height="40" />
+            <local:Wiki Height="{Binding UIHeight}" Background="White" Grid.Column="1" VerticalAlignment="Top"/>
+
+
+        </Grid>
+
+    </StackPanel>
+
+</UserControl>
+
+
+
+

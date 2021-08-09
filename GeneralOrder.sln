@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseEntity", "DatabaseEntity\DatabaseEntity.csproj", "{CBD10045-C793-47B8-A779-FFA4DA05DFCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralOrder", "GeneralOrder\GeneralOrder.csproj", "{F2F4CDE1-241E-44CA-AFBE-7CB780F7D7CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralOrderCore", "GeneralOrderCore\GeneralOrderCore.csproj", "{7CEFE10B-62DC-42A6-9DA1-9BE3CDAF2B34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralOrderUpdateDetails", "GeneralOrderUpdateDetails\GeneralOrderUpdateDetails.csproj", "{BF0A4BAB-8E3D-4B69-BF96-8CE05D5186C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST-GOUpdateDetails", "TEST-GOUpdateDetails\TEST-GOUpdateDetails.csproj", "{B682B83C-B110-484F-A78D-0C9D7F9E9922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControlLibrary1", "WpfControlLibrary1\WpfControlLibrary1.csproj", "{3FF87649-5702-4B65-97BA-6B1CBA1E00DD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "GeneralOrderInstaller", "GeneralOrderInstaller\GeneralOrderInstaller.vdproj", "{FFF305A1-059F-4EC2-BCEF-9A0DA10A7609}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reporting", "Reporting\Reporting.csproj", "{C4A1D36C-0650-4194-87F8-38499AD9E03C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestReport", "TestReport\TestReport.csproj", "{9BA23176-9453-4808-8CD7-6C454C069AE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBD10045-C793-47B8-A779-FFA4DA05DFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD10045-C793-47B8-A779-FFA4DA05DFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD10045-C793-47B8-A779-FFA4DA05DFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD10045-C793-47B8-A779-FFA4DA05DFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F4CDE1-241E-44CA-AFBE-7CB780F7D7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F4CDE1-241E-44CA-AFBE-7CB780F7D7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F4CDE1-241E-44CA-AFBE-7CB780F7D7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F4CDE1-241E-44CA-AFBE-7CB780F7D7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CEFE10B-62DC-42A6-9DA1-9BE3CDAF2B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEFE10B-62DC-42A6-9DA1-9BE3CDAF2B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEFE10B-62DC-42A6-9DA1-9BE3CDAF2B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEFE10B-62DC-42A6-9DA1-9BE3CDAF2B34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0A4BAB-8E3D-4B69-BF96-8CE05D5186C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0A4BAB-8E3D-4B69-BF96-8CE05D5186C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0A4BAB-8E3D-4B69-BF96-8CE05D5186C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0A4BAB-8E3D-4B69-BF96-8CE05D5186C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B682B83C-B110-484F-A78D-0C9D7F9E9922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B682B83C-B110-484F-A78D-0C9D7F9E9922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B682B83C-B110-484F-A78D-0C9D7F9E9922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B682B83C-B110-484F-A78D-0C9D7F9E9922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF87649-5702-4B65-97BA-6B1CBA1E00DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF87649-5702-4B65-97BA-6B1CBA1E00DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF87649-5702-4B65-97BA-6B1CBA1E00DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF87649-5702-4B65-97BA-6B1CBA1E00DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF305A1-059F-4EC2-BCEF-9A0DA10A7609}.Debug|Any CPU.ActiveCfg = Debug
+		{FFF305A1-059F-4EC2-BCEF-9A0DA10A7609}.Release|Any CPU.ActiveCfg = Release
+		{C4A1D36C-0650-4194-87F8-38499AD9E03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A1D36C-0650-4194-87F8-38499AD9E03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A1D36C-0650-4194-87F8-38499AD9E03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A1D36C-0650-4194-87F8-38499AD9E03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA23176-9453-4808-8CD7-6C454C069AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA23176-9453-4808-8CD7-6C454C069AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA23176-9453-4808-8CD7-6C454C069AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA23176-9453-4808-8CD7-6C454C069AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05F45DC9-10D5-4E51-A424-4459E0005713}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ocpc-tfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DatabaseEntity\\DatabaseEntity.csproj
+		SccProjectName1 = DatabaseEntity
+		SccLocalPath1 = DatabaseEntity
+		SccProjectUniqueName2 = GeneralOrder\\GeneralOrder.csproj
+		SccProjectName2 = GeneralOrder
+		SccLocalPath2 = GeneralOrder
+		SccProjectUniqueName3 = GeneralOrderCore\\GeneralOrderCore.csproj
+		SccProjectName3 = GeneralOrderCore
+		SccLocalPath3 = GeneralOrderCore
+		SccProjectUniqueName4 = GeneralOrderUpdateDetails\\GeneralOrderUpdateDetails.csproj
+		SccProjectName4 = GeneralOrderUpdateDetails
+		SccLocalPath4 = GeneralOrderUpdateDetails
+		SccProjectUniqueName5 = TEST-GOUpdateDetails\\TEST-GOUpdateDetails.csproj
+		SccProjectName5 = TEST-GOUpdateDetails
+		SccLocalPath5 = TEST-GOUpdateDetails
+		SccProjectUniqueName6 = WpfControlLibrary1\\WpfControlLibrary1.csproj
+		SccProjectName6 = WpfControlLibrary1
+		SccLocalPath6 = WpfControlLibrary1
+		SccProjectUniqueName7 = GeneralOrderInstaller\\GeneralOrderInstaller.vdproj
+		SccProjectName7 = GeneralOrderInstaller
+		SccLocalPath7 = GeneralOrderInstaller
+		SccProjectUniqueName8 = Reporting\\Reporting.csproj
+		SccProjectName8 = Reporting
+		SccLocalPath8 = Reporting
+		SccProjectUniqueName9 = TestReport\\TestReport.csproj
+		SccProjectName9 = TestReport
+		SccLocalPath9 = TestReport
+	EndGlobalSection
+EndGlobal

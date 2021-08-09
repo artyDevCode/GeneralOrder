@@ -1,0 +1,74 @@
+﻿<Window x:Class="GeneralOrder.GOImportFileSelectAct"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GeneralOrder"
+             mc:Ignorable="d"   
+             WindowStartupLocation="CenterScreen"
+             Background="White"
+             xmlns:core="clr-namespace:GeneralOrderCore;assembly=GeneralOrderCore"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             d:DesignHeight="200" d:DesignWidth="600"
+             Title="Act Title Check"
+             Height="300" Width="600">
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="35" />
+            <RowDefinition Height="25" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+        <TextBlock Style="{StaticResource RegularText}" FontSize="{Binding UIFontSize}" Grid.Row="0" Grid.Column="0" Margin="0" TextAlignment="Left" Padding="0"
+                   TextWrapping="Wrap" Text="An Act Title has not been matched against the Database. Please type the Act Title in the text box and an autocomplete list box will appear. Select the appropriate Act Title.  "/>
+        <Grid Margin="0 0 0 0" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="7*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock  Style="{StaticResource RegularText}" FontSize="{Binding UIFontSize}"  Text="Verify Act: " Grid.Column="0" />
+            <TextBlock  Style="{StaticResource RegularText}"  FontSize="{Binding UIFontSize}" Foreground="Red"  Text="{Binding verifyActText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                            VerticalAlignment="Center" Grid.Column="1" />
+        </Grid>
+        <Grid Margin="0 0 0 0" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="7*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock  Style="{StaticResource RegularText}" FontSize="{Binding UIFontSize}"
+                            Text="Act" Grid.Column="0" Margin="10 0" Width="25"/>
+          
+            <core:ComboBoxHelper ItemsSource="{Binding actList}" IsSynchronizedWithCurrentItem="false"
+                                   DisplayMemberPath="ActTitle"  FontSize="{Binding UIFontSize}" IsEditable="false"
+                                   SelectedIndex="{Binding actSelectedIndex, Mode=TwoWay}" MaxDropDownHeight="200" 
+                                   IsTextSearchEnabled="false" IsDropDownOpen="{Binding cBShowItems, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                   SelectedValuePath="ActTitleILDNumber" Grid.Column="1"  Padding="{Binding generalOrderPadding}"  
+                                   SelectedItem="{Binding cBSelectedActValue, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" >
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="SelectionChanged">
+                        <i:InvokeCommandAction Command="{Binding selectActCB}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </core:ComboBoxHelper>
+            <TextBox Margin="0" Name="txtAnswer" Padding="0" TextAlignment="Left" VerticalAlignment="Center" 
+                         FontSize="{Binding UIFontSize}"
+                         Background="White" BorderBrush="LightGray" BorderThickness="2" Grid.Column="1" Text="{Binding selectTextBoxText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                         Height="25" >
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="TextChanged">
+                        <i:InvokeCommandAction Command="{Binding selectActTextBox}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBox>
+        </Grid>
+
+        <Button  Grid.Row="4" Grid.Column="0"   Command="{Binding btnClose}" FontSize="{Binding UIFontSize}" x:Name="btnClose" Content="Save and Close"  
+                     Padding="{Binding generalOrderPadding}" Margin="{Binding generalOrderPadding}" >
+        </Button>
+        
+    </Grid>
+</Window>

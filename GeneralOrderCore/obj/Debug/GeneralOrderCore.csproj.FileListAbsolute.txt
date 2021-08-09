@@ -1,0 +1,12 @@
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Debug\GeneralOrderCore.dll.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Debug\GeneralOrderCore.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Debug\GeneralOrderCore.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Debug\ApplicationLogger.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Debug\log4net.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Debug\ApplicationLogger.dll.config
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\bin\Debug\log4net.xml
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\obj\Debug\GeneralOrderCore.csproj.CoreCompileInputs.cache
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\obj\Debug\GeneralOrderCore.csproj.CopyComplete
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\obj\Debug\GeneralOrderCore.dll
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\obj\Debug\GeneralOrderCore.pdb
+C:\Users\arty\Source\Workspaces\OCPC Projects\GeneralOrder\GeneralOrderCore\obj\Debug\GeneralOrderCore.csprojAssemblyReference.cache
